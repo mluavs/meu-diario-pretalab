@@ -1,0 +1,31 @@
+.container-bio{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-width: auto;
+    justify-content: center;
+    /*background-color: green;*/
+    gap: 20px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.container-bio img {
+    width: 100%;
+    object-fit: cover;
+    max-width: 200px;
+    
+}
+
+.container-bio h2{
+    padding-top: 75px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.container-bio h3{
+    text-align: justify;
+    max-width: 500px;
+    padding: 20px;
+}
